@@ -1,9 +1,9 @@
+# node-bing-translate
+
 ## 安装
 
 ```
 yarn add node-bing-translate
-
-
 ```
 
 ## 使用
