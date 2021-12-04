@@ -1,0 +1,11 @@
+{
+  "name": "node-bing-translate",
+  "version": "1.0.0",
+  "author": "xxllxx",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "qs": "^6.10.1"
+  }
+}
