@@ -1,0 +1,23 @@
+<body>
+  <script charset="utf-8" src="list.json"></script>
+  <script>
+    window.onload = function() {
+      if (!list || list.length == 0) {
+        document.querySelector('body').appendChild('没有音频')
+      }
+      for (let index = 0; index < list.length; index++) {
+        const item = list[index];
+        var div = document.createElement('div')
+        var span = document.createElement('span')
+        span.innerHTML = item.text
+        var audio = document.createElement('audio')
+        audio.controls = true
+        audio.src = item.src
+        div.appendChild(span)
+        div.appendChild(audio)
+        document.body.appendChild(div)
+      }
+      console.log(list);
+    }
+  </script>
+</body>

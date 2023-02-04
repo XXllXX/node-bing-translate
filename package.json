@@ -1,0 +1,17 @@
+{
+  "name": "node-bing-translate",
+  "version": "1.0.2",
+  "author": "xxllxx",
+  "main": "index.js",
+  "homepage": "https://github.com/XXllXX/node-bing-translate.git",
+  "repository": "https://github.com/XXllXX/node-bing-translate.git",
+  "keywords": [
+    "translate",
+    "bing-translate",
+    "translate-api"
+  ],
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "qs": "^6.10.1"
+  }
+}
